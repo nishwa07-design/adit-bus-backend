@@ -38,6 +38,7 @@ Then open http://localhost:8000/docs for the auto-generated API docs.
 from __future__ import annotations
 
 import math
+import os
 import threading
 import time
 from datetime import datetime, timedelta
@@ -52,7 +53,7 @@ from pydantic import BaseModel
 # --------------------------------------------------------------------------
 
 HOST = "0.0.0.0"          # listen on all interfaces so the UI can reach it
-PORT = 8000
+PORT = int(os.environ.get("PORT", "8000"))  # hosts like Render inject PORT; local runs keep 8000
 
 AVG_BUS_SPEED_KMPH = 30.0     # average city-bus speed
 TRAFFIC_FACTOR_DELAYED = 1.8  # delayed buses effectively crawl (x1.8 slower)
