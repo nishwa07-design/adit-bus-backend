@@ -86,40 +86,40 @@ class RouteDef:
 
 ROUTES: List[RouteDef] = [
     RouteDef("R1", "Anand City Route", "Anand Railway Station", "ADIT Campus", [
-        StopDef("Anand Railway Station", 22.5645, 72.9490, "07:05 AM", "07:07 AM"),
-        StopDef("Anand Bus Stand", 22.5633, 72.9410, "07:15 AM", "07:17 AM"),
-        StopDef("Town Hall Area", 22.5638, 72.9360, "07:22 AM", "07:24 AM"),
-        StopDef("Vallabh Vidyanagar", 22.5490, 72.9270, "07:30 AM", "07:32 AM"),
-        StopDef("New Vallabh Vidyanagar", 22.5545, 72.9250, "07:36 AM", "07:38 AM"),
-        StopDef("ADIT Campus", ADIT[0], ADIT[1], "07:40 AM", "07:45 AM"),
+        StopDef("Anand Railway Station", 22.5645, 72.9490, "07:00 AM", "07:02 AM"),
+        StopDef("Anand Bus Stand", 22.5633, 72.9410, "07:10 AM", "07:12 AM"),
+        StopDef("Town Hall Area", 22.5638, 72.9360, "07:20 AM", "07:22 AM"),
+        StopDef("Vallabh Vidyanagar", 22.5490, 72.9270, "07:35 AM", "07:37 AM"),
+        StopDef("New Vallabh Vidyanagar", 22.5545, 72.9250, "07:45 AM", "07:47 AM"),
+        StopDef("ADIT Campus", ADIT[0], ADIT[1], "08:00 AM", "08:00 AM"),
     ]),
     RouteDef("R2", "Vallabh Vidyanagar Route", "Vallabh Vidyanagar", "ADIT Campus", [
-        StopDef("Vallabh Vidyanagar", 22.5490, 72.9270, "07:00 AM", "07:02 AM"),
-        StopDef("Sardar Patel University Area", 22.5505, 72.9300, "07:08 AM", "07:10 AM"),
-        StopDef("Bakrol", 22.5595, 72.9365, "07:15 AM", "07:17 AM"),
-        StopDef("New Vallabh Vidyanagar", 22.5545, 72.9250, "07:24 AM", "07:26 AM"),
-        StopDef("ADIT Campus", ADIT[0], ADIT[1], "07:35 AM", "07:40 AM"),
+        StopDef("Vallabh Vidyanagar", 22.5490, 72.9270, "07:10 AM", "07:12 AM"),
+        StopDef("Sardar Patel University Area", 22.5505, 72.9300, "07:20 AM", "07:22 AM"),
+        StopDef("Bakrol", 22.5595, 72.9365, "07:35 AM", "07:37 AM"),
+        StopDef("New Vallabh Vidyanagar", 22.5545, 72.9250, "07:50 AM", "07:52 AM"),
+        StopDef("ADIT Campus", ADIT[0], ADIT[1], "08:05 AM", "08:05 AM"),
     ]),
     RouteDef("R3", "Karamsad / Anand Side Route", "Anand City", "ADIT Campus", [
-        StopDef("Anand City", 22.5638, 72.9360, "07:10 AM", "07:12 AM"),
-        StopDef("Karamsad", 22.5460, 72.9110, "07:18 AM", "07:20 AM"),
-        StopDef("Vallabh Vidyanagar", 22.5490, 72.9270, "07:26 AM", "07:28 AM"),
-        StopDef("New Vallabh Vidyanagar", 22.5545, 72.9250, "07:31 AM", "07:33 AM"),
-        StopDef("ADIT Campus", ADIT[0], ADIT[1], "07:35 AM", "07:40 AM"),
+        StopDef("Anand City", 22.5638, 72.9360, "06:55 AM", "06:57 AM"),
+        StopDef("Karamsad", 22.5460, 72.9110, "07:10 AM", "07:12 AM"),
+        StopDef("Vallabh Vidyanagar", 22.5490, 72.9270, "07:30 AM", "07:32 AM"),
+        StopDef("New Vallabh Vidyanagar", 22.5545, 72.9250, "07:45 AM", "07:47 AM"),
+        StopDef("ADIT Campus", ADIT[0], ADIT[1], "08:00 AM", "08:00 AM"),
     ]),
     RouteDef("R4", "Borsad Side Route", "Borsad", "ADIT Campus", [
-        StopDef("Borsad", 22.4060, 72.8980, "06:40 AM", "06:42 AM"),
-        StopDef("Anand Road", 22.4700, 72.9050, "06:55 AM", "06:57 AM"),
-        StopDef("Anand City", 22.5638, 72.9360, "07:10 AM", "07:12 AM"),
-        StopDef("Vallabh Vidyanagar", 22.5490, 72.9270, "07:22 AM", "07:24 AM"),
-        StopDef("ADIT Campus", ADIT[0], ADIT[1], "07:30 AM", "07:35 AM"),
+        StopDef("Borsad", 22.4060, 72.8980, "06:45 AM", "06:47 AM"),
+        StopDef("Anand Road", 22.4700, 72.9050, "07:10 AM", "07:12 AM"),
+        StopDef("Anand City", 22.5638, 72.9360, "07:25 AM", "07:27 AM"),
+        StopDef("Vallabh Vidyanagar", 22.5490, 72.9270, "07:45 AM", "07:47 AM"),
+        StopDef("ADIT Campus", ADIT[0], ADIT[1], "08:05 AM", "08:05 AM"),
     ]),
     RouteDef("R5", "Petlad Side Route", "Petlad", "ADIT Campus", [
-        StopDef("Petlad", 22.4850, 72.8200, "06:45 AM", "06:47 AM"),
-        StopDef("Anand Road", 22.5200, 72.8700, "07:00 AM", "07:02 AM"),
-        StopDef("Anand City", 22.5600, 72.9400, "07:14 AM", "07:16 AM"),
-        StopDef("New Vallabh Vidyanagar", 22.5545, 72.9250, "07:24 AM", "07:26 AM"),
-        StopDef("ADIT Campus", ADIT[0], ADIT[1], "07:30 AM", "07:35 AM"),
+        StopDef("Petlad", 22.4850, 72.8200, "06:40 AM", "06:42 AM"),
+        StopDef("Anand Road", 22.5200, 72.8700, "07:05 AM", "07:07 AM"),
+        StopDef("Anand City", 22.5600, 72.9400, "07:20 AM", "07:22 AM"),
+        StopDef("New Vallabh Vidyanagar", 22.5545, 72.9250, "07:45 AM", "07:47 AM"),
+        StopDef("ADIT Campus", ADIT[0], ADIT[1], "08:00 AM", "08:00 AM"),
     ]),
 ]
 
@@ -201,7 +201,11 @@ class Bus:
             # route mark the bus as arrived at ADIT campus.
             self.stop_index += 1
             if self.stop_index + 1 >= len(self.route.stops):
-                self.status = "arrived"  # reached ADIT campus
+                # Reached ADIT campus: restart the round trip so the demo
+                # fleet keeps moving all day (positions are simulated).
+                self.stop_index = 0
+                self.lat = self.route.stops[0].lat
+                self.lng = self.route.stops[0].lng
                 return
             a = self.route.stops[self.stop_index]
             self.lat, self.lng = a.lat, a.lng
