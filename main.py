@@ -41,7 +41,7 @@ import math
 import os
 import threading
 import time
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 from typing import Dict, List, Optional
 
 from fastapi import FastAPI, HTTPException, Response
@@ -259,6 +259,8 @@ class Bus:
             "latitude": round(self.lat, 6),
             "longitude": round(self.lng, 6),
             "status": self.status,
+            "current_location": self.route.stops[self.stop_index].name,
+            "last_updated": datetime.now(timezone.utc).isoformat(),
             "capacity": self.capacity,
             "seats_available": max(0, self.capacity - self.seats_taken),
             "next_stop": self.next_stop_name(),
